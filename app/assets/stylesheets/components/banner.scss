@@ -1,0 +1,26 @@
+@import '../index';
+
+section.banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  background-image: url('../../app/assets/images/bg-mondo@2x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .title {
+    font-family: 'Dunbar Text';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    color: $color-white;
+  }
+
+  .btn {
+    margin-top: 2em;
+  }
+}

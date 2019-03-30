@@ -1,0 +1,26 @@
+@import '../ambience/colors';
+@import '../ambience/fonts';
+
+.navbar {
+  .nav-item {
+    margin-right: 1em;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .btn {
+      border-width: 2px;
+    }
+  }
+
+  .nav-link {
+    font-family: 'Dunbar Tall';
+    color: $color-white;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $color-orange;
+    }
+  }
+}

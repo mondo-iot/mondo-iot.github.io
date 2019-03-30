@@ -1,0 +1,12 @@
+@import '../ambience/colors';
+@import '../ambience/fonts';
+
+.btn {
+  border-radius: 30px;
+  font-family: 'Dunbar Tall';
+  text-transform: uppercase;
+}
+
+.btn-warning, .btn-warning:hover {
+  color: $color-white;
+}
