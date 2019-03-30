@@ -3,7 +3,8 @@ var gulp = require("gulp"),
     postcss = require("gulp-postcss"),
     autoprefixer = require("autoprefixer"),
     cssnano = require("cssnano"),
-    sourcemaps = require("gulp-sourcemaps");
+    sourcemaps = require("gulp-sourcemaps"),
+    concatcss = require('gulp-concat-css');
 
 var browserSync = require("browser-sync").create();
 
@@ -14,6 +15,11 @@ var paths = {
   }
 };
 
+function reload(done) {
+  browserSync.reload();
+  done();
+}
+
 function style() {
   return (
     gulp
@@ -23,13 +29,9 @@ function style() {
       .on("error", sass.logError)
       .pipe(postcss([autoprefixer(), cssnano()]))
       .pipe(sourcemaps.write())
+      .pipe(concatcss("style.min.css"))
       .pipe(gulp.dest(paths.styles.dest))
   );
-}
-
-function reload() {
-  browserSync.reload();
-  done();
 }
 
 function watch() {
@@ -42,6 +44,7 @@ function watch() {
   });
 
   gulp.watch(paths.styles.src, style);
+  // gulp.watch(paths.styles.src, reload);
   gulp.watch("index.html", reload);
 }
 
