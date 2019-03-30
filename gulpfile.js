@@ -4,14 +4,20 @@ var gulp = require("gulp"),
     autoprefixer = require("autoprefixer"),
     cssnano = require("cssnano"),
     sourcemaps = require("gulp-sourcemaps"),
-    concatcss = require('gulp-concat-css');
+    concatcss = require('gulp-concat-css'),
+    injectpartials = require('gulp-inject-partials');
 
 var browserSync = require("browser-sync").create();
 
 var paths = {
   styles: {
-    src: ["app/scss/ambience/*.scss", "app/scss/base/*.scss", "app/scss/components/*.scss", "app/scss/index.scss"],
+    src: ["app/assets/stylesheets/ambience/*.scss", "app/assets/stylesheets/base/*.scss", "app/assets/stylesheets/components/*.scss", "app/assets/stylesheets/index.scss"],
     dest: "dist/css/"
+  },
+
+  html: {
+    src: ["app/views/partials/*.html", "app/views/index.html"],
+    dest: "./"
   }
 };
 
@@ -34,8 +40,18 @@ function style() {
   );
 }
 
+function html() {
+  return (
+    gulp
+      .src("app/views/index.html")
+      .pipe(injectpartials())
+      .pipe(gulp.dest(paths.html.dest))
+  )
+}
+
 function watch() {
   style();
+  html();
 
   browserSync.init({
     server: {
@@ -44,9 +60,10 @@ function watch() {
   });
 
   gulp.watch(paths.styles.src, style);
-  // gulp.watch(paths.styles.src, reload);
-  gulp.watch("index.html", reload);
+  gulp.watch(paths.html.src, html);
+  gulp.watch(paths.html.src, reload);
 }
 
 exports.style = style;
 exports.watch = watch;
+exports.html = html;
