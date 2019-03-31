@@ -1,0 +1,51 @@
+@import '../../ambience/colors';
+@import '../../ambience/fonts';
+
+section.how-smart-home {
+  padding: 4em 0;
+
+  background-color: $color-teal;
+  color: $color-white;
+
+  .title {
+    font-family: 'Dunbar Tall';
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .row {
+    padding-top: 3em;
+
+    .col-md-6 {
+      padding-right: 5em;
+    }
+  }
+
+  .wrapper {
+    .title {
+      padding-bottom: .5rem;
+      font-family: 'Dunbar Tall';
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+
+  .price {
+    background-color: #0E5A73;
+    margin-top: 1em;
+    padding: 2em;
+
+    .sub-title {
+      font-family: 'Dunbar Tall';
+      font-size: 20px;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+    
+    .value {
+      font-family: 'Dunbar Tall';
+      font-size: 48px;
+    }
+  }
+}
