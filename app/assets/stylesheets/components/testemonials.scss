@@ -1,0 +1,62 @@
+@import '../ambience/fonts';
+@import '../ambience/colors';
+
+section.testemonials {
+  padding: 4em 0;
+
+  background-color: $color-green;
+
+  .title {
+    font-family: 'Dunbar Text';
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: $color-white;
+  }
+
+  .row {
+    margin-top: 8em;
+  }
+
+  .testemonial {
+    width: 100%;
+    padding: 6em 1.5em 1.75em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $color-white;
+
+    .photo {
+      position: absolute;
+      top: -4em;
+      align-self: center;
+
+      border-radius: 50%;
+      border: 3px solid $color-white;
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .bar {
+      margin: 1em 0;
+      width: 100px;
+      height: 3px;
+      background-color: $color-green;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      color: $color-green;
+    }
+
+    .location {
+      font-weight: 600;
+    }
+  }
+}
