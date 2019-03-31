@@ -16,7 +16,7 @@ var paths = {
   },
 
   html: {
-    src: ["app/views/partials/*.html", "app/views/index.html"],
+    src: ["app/views/partials/*.html", "app/views/index.html", "app/views/smart-home/index.html"],
     dest: "./"
   }
 };
@@ -49,6 +49,15 @@ function html() {
   )
 }
 
+function htmlSmartHome() {
+  return (
+    gulp
+      .src("app/views/smart-home/index.html")
+      .pipe(injectpartials())
+      .pipe(gulp.dest("./smart-home/"))
+  )
+}
+
 function watch() {
   style();
   html();
@@ -61,9 +70,11 @@ function watch() {
 
   gulp.watch(paths.styles.src, style);
   gulp.watch(paths.html.src, html);
+  gulp.watch(paths.html.src, htmlSmartHome);
   gulp.watch(paths.html.src, reload);
 }
 
 exports.style = style;
 exports.watch = watch;
 exports.html = html;
+exports.htmlSmartHome = htmlSmartHome;
