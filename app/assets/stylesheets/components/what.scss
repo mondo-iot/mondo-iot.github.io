@@ -1,0 +1,33 @@
+@import '../ambience/colors';
+@import '../ambience/fonts';
+
+section.what {
+  padding: 3em 0;
+
+  background-color: $color-teal;
+
+  color: $color-white;
+
+  .title {
+    font-family: 'Dunbar Text';
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .sub-title {
+    padding-top: 1em;
+    
+    font-family: 'Dunbar Tall';
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .row {
+    padding-top: 4em;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
