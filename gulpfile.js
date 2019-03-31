@@ -11,12 +11,15 @@ var browserSync = require("browser-sync").create();
 
 var paths = {
   styles: {
-    src: ["app/assets/stylesheets/ambience/*.scss", "app/assets/stylesheets/base/*.scss", "app/assets/stylesheets/components/*.scss", "app/assets/stylesheets/index.scss"],
+    src: ["app/assets/stylesheets/ambience/*.scss", "app/assets/stylesheets/base/*.scss", "app/assets/stylesheets/components/*.scss", "app/assets/stylesheets/components/smart-home/*.scss", "app/assets/stylesheets/index.scss"],
     dest: "dist/css/"
   },
 
   html: {
-    src: ["app/views/partials/*.html", "app/views/index.html", "app/views/smart-home/index.html"],
+    src: ["app/views/partials/*.html",
+          "app/views/index.html",
+          "app/views/smart-home/index.html",
+          "app/views/smart-home/partials/*.html"],
     dest: "./"
   }
 };
