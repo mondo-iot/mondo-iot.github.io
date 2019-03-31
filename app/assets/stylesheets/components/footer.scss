@@ -1,0 +1,60 @@
+@import '../ambience/colors';
+@import '../ambience/fonts';
+
+footer {
+  color: $color-white;
+
+  .links-section {
+    padding: 3em 0;
+
+    background-color: #1D1D1D;
+
+    .title {
+      font-family: 'Dunbar Tall';
+      font-size: 18px;
+      text-transform: uppercase;
+    }
+
+    .links {
+      margin-top: 2em;
+      list-style-type: none;
+      padding: 0;
+      
+      .link {
+        padding-bottom: .5em;
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+
+      .link a {
+        color: $color-white;
+      }
+    }
+
+    form {
+      margin-top: 2em;
+
+      .form-control {
+        border-radius: 30px;
+        background-color: #292929;
+        border: none;
+      }
+    }
+  }
+
+  .logo-section {
+    padding: 2.5em 0;
+
+    background-color: #151515;
+
+    .copyright-wrapper {
+      text-align: right;
+
+      .copyright {
+        opacity: 0.8;
+      }
+    }
+  }
+}
