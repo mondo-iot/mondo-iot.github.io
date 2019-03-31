@@ -1,0 +1,39 @@
+@import '../ambience/fonts';
+@import '../ambience/colors';
+
+section.benefits {
+  padding: 4em 0;
+
+  .title {
+    font-family: 'Dunbar Text';
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .sub-title {
+    max-width: 470px;
+    padding-top: 2em;
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .benefits-list {
+    margin-top: 2em;
+    align-self: flex-end;
+    list-style-type: none;
+    padding: 0;
+
+    .benefit {
+      padding-bottom: 2em;
+
+      &:last-child {
+        padding: 0;
+      }
+    }
+  }
+
+  .image {
+    height: 400px;
+  }
+}
