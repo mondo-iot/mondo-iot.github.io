@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Agrupar_143" data-name="Agrupar 143" transform="translate(-139 -2277)">
+    <circle id="Elipse_4" data-name="Elipse 4" cx="30" cy="30" r="30" transform="translate(139 2277)" fill="#3db387"/>
+    <g id="house" transform="translate(147 2288.172)">
+      <path id="Caminho_117" data-name="Caminho 117" d="M6,7.524V18.109A20.276,20.276,0,0,0,16.359,35.782l5.3,2.968a.614.614,0,0,0,.6,0l5.3-2.968A20.277,20.277,0,0,0,37.918,18.109V7.524A.614.614,0,0,0,37.3,6.91,25.664,25.664,0,0,1,23.026,2.587L22.3,2.1a.614.614,0,0,0-.681,0l-.726.484A25.664,25.664,0,0,1,6.614,6.91.614.614,0,0,0,6,7.524Zm1.228.607A26.881,26.881,0,0,0,21.573,3.609l.386-.258.386.257A26.881,26.881,0,0,0,36.69,8.131v9.977a19.048,19.048,0,0,1-9.731,16.6l-5,2.8-5-2.8a19.048,19.048,0,0,1-9.731-16.6Z" transform="translate(0 0)" fill="#fff"/>
+      <path id="Caminho_118" data-name="Caminho 118" d="M19.1,35.489l4.1,2.3a.614.614,0,0,0,.6,0l4.1-2.3a17.816,17.816,0,0,0,9.1-15.531V11.725a.614.614,0,0,0-.562-.614A28.256,28.256,0,0,1,23.831,6.883a.614.614,0,0,0-.654,0,28.256,28.256,0,0,1-12.614,4.23.614.614,0,0,0-.562.614v8.231A17.818,17.818,0,0,0,19.1,35.489ZM11.228,12.283A29.509,29.509,0,0,0,23.5,8.124,29.509,29.509,0,0,0,35.78,12.283v7.673A16.589,16.589,0,0,1,27.3,34.417l-3.8,2.13-3.8-2.13a16.591,16.591,0,0,1-8.475-14.459Z" transform="translate(-1.545 -1.849)" fill="#fff"/>
+      <path id="Caminho_119" data-name="Caminho 119" d="M19.842,22.752v7.366a.614.614,0,0,0,.614.614H32.732a.614.614,0,0,0,.614-.614V22.752h1.228a.614.614,0,0,0,.349-1.118l-7.979-5.524a.614.614,0,0,0-.7,0l-7.979,5.524a.614.614,0,0,0,.349,1.118ZM27.821,29.5H25.366V25.821h2.455ZM26.593,17.36l6.029,4.174a.614.614,0,0,0-.5.6V29.5H29.049v-4.3a.614.614,0,0,0-.614-.614H24.752a.614.614,0,0,0-.614.614v4.3H21.069V22.138a.614.614,0,0,0-.5-.6Z" transform="translate(-4.634 -5.407)" fill="#fff"/>
+      <rect id="Retângulo_42" data-name="Retângulo 42" width="1.228" height="1.228" transform="translate(21.345 8.138)" fill="#fff"/>
+      <rect id="Retângulo_43" data-name="Retângulo 43" width="1.228" height="1.228" transform="translate(31.78 11.821)" fill="#fff"/>
+      <rect id="Retângulo_44" data-name="Retângulo 44" width="1.228" height="1.228" transform="translate(31.78 19.8)" fill="#fff"/>
+      <rect id="Retângulo_45" data-name="Retângulo 45" width="1.228" height="1.228" transform="translate(28.711 26.552)" fill="#fff"/>
+      <rect id="Retângulo_46" data-name="Retângulo 46" width="1.228" height="1.228" transform="translate(21.345 32.076)" fill="#fff"/>
+      <rect id="Retângulo_47" data-name="Retângulo 47" width="1.228" height="1.228" transform="translate(10.91 11.821)" fill="#fff"/>
+      <rect id="Retângulo_48" data-name="Retângulo 48" width="1.228" height="1.228" transform="translate(10.91 19.8)" fill="#fff"/>
+      <rect id="Retângulo_49" data-name="Retângulo 49" width="1.228" height="1.228" transform="translate(13.979 26.552)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

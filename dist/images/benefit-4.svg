@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Agrupar_145" data-name="Agrupar 145" transform="translate(-139 -2459)">
+    <circle id="Elipse_6" data-name="Elipse 6" cx="30" cy="30" r="30" transform="translate(139 2459)" fill="#3db387"/>
+    <g id="distance" transform="translate(142 2468.474)">
+      <path id="Caminho_134" data-name="Caminho 134" d="M18.127,39.526H33.138V38.275A.625.625,0,0,0,33,37.885a5.238,5.238,0,0,1-.46-5.9l.515-.9a.625.625,0,0,0-.1-.751l-5.316-5.316a1.586,1.586,0,1,1,2.243-2.243l6.567,6.567.884-.884-1.068-1.07V21.247L38,23.339a5.629,5.629,0,0,1,1.393,3.706V39.526h1.251V27.045a6.865,6.865,0,0,0-1.689-4.517l-2.689-3.242V5.127A3.131,3.131,0,0,0,33.138,2H18.127A3.131,3.131,0,0,0,15,5.127V36.4a3.131,3.131,0,0,0,3.127,3.127ZM16.251,36.4v-.625H30.705a6.485,6.485,0,0,0,1.045,2.5H18.127A1.876,1.876,0,0,1,16.251,36.4ZM33.612,24.731a2.48,2.48,0,0,0,.151-.841V20.763a2.5,2.5,0,0,0-2.5-2.5H25.007a1.251,1.251,0,1,1,0-2.5h4.378V14.509H25.007a2.5,2.5,0,0,0,0,5h6.254a1.251,1.251,0,0,1,1.251,1.251v2.868l-1.747-1.747a2.829,2.829,0,0,0-4.538,3.257H21.254A1.251,1.251,0,0,1,20,23.89V22.639H18.753V23.89a2.5,2.5,0,0,0,2.5,2.5h6l4.483,4.483-.278.486a6.5,6.5,0,0,0-.849,3.162H16.251V7H35.014v19.13ZM18.127,3.251H33.138a1.876,1.876,0,0,1,1.876,1.876v.625H16.251V5.127a1.876,1.876,0,0,1,1.876-1.876Z" transform="translate(0)" fill="#fff"/>
+      <path id="Caminho_135" data-name="Caminho 135" d="M20.876,26A1.876,1.876,0,0,0,19,27.876a2.12,2.12,0,0,0,.625,1.51l.809.809a.625.625,0,0,0,.884,0l.809-.809a2.12,2.12,0,0,0,.625-1.51A1.876,1.876,0,0,0,20.876,26Zm.367,2.5-.367.367L20.51,28.5a.891.891,0,0,1-.259-.625.625.625,0,1,1,1.251,0A.891.891,0,0,1,21.243,28.5Z" transform="translate(-1.498 -8.989)" fill="#fff"/>
+      <path id="Caminho_136" data-name="Caminho 136" d="M36.876,13A1.876,1.876,0,0,0,35,14.876a2.12,2.12,0,0,0,.625,1.51l.809.809a.625.625,0,0,0,.884,0l.809-.809a2.12,2.12,0,0,0,.625-1.51A1.876,1.876,0,0,0,36.876,13Zm.367,2.5-.367.367L36.51,15.5a.891.891,0,0,1-.259-.625.625.625,0,0,1,1.251,0A.891.891,0,0,1,37.243,15.5Z" transform="translate(-7.491 -4.12)" fill="#fff"/>
+      <rect id="Retângulo_50" data-name="Retângulo 50" width="1.251" height="1.251" transform="translate(32.512 8.254)" fill="#fff"/>
+      <rect id="Retângulo_51" data-name="Retângulo 51" width="1.251" height="1.251" transform="translate(17.502 8.254)" fill="#fff"/>
+      <rect id="Retângulo_52" data-name="Retângulo 52" width="1.251" height="1.251" transform="translate(20.004 8.254)" fill="#fff"/>
+      <rect id="Retângulo_53" data-name="Retângulo 53" width="1.251" height="1.251" transform="translate(22.505 8.254)" fill="#fff"/>
+      <rect id="Retângulo_54" data-name="Retângulo 54" width="11.258" height="1.251" transform="translate(17.502 28.894)" fill="#fff"/>
+      <rect id="Retângulo_55" data-name="Retângulo 55" width="1.251" height="1.251" transform="translate(17.502 31.396)" fill="#fff"/>
+      <rect id="Retângulo_56" data-name="Retângulo 56" width="1.251" height="1.251" transform="translate(20.004 31.396)" fill="#fff"/>
+      <rect id="Retângulo_57" data-name="Retângulo 57" width="1.251" height="1.251" transform="translate(23.756 31.396)" fill="#fff"/>
+      <rect id="Retângulo_58" data-name="Retângulo 58" width="1.251" height="1.251" transform="translate(26.258 31.396)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
