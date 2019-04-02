@@ -1,0 +1,10 @@
+@import '../ambience/fonts';
+@import '../ambience/colors';
+
+section.cta {
+  padding: 4em 0;
+  background-image: url('../images/bg-cta@2x.png');
+  color: $color-white;
+  font-size: 20px;
+  text-align: center;
+}
