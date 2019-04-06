@@ -11,12 +11,19 @@ section.about-project {
     text-align: center;
   }
 
+  .sub-title {
+    padding-bottom: .75em;
+    font-family: 'Dunbar Tall';
+    font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
   .steps {
-    padding-top: 1em;
+    padding: 2em 5em 0;
   }
 
   .text {
-    width: 500px;
+    width: 450px;
   }
 
   .even, .odd {
