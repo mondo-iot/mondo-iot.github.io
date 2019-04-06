@@ -21,18 +21,8 @@ section.what-smart-home {
   }
 
   .product {
-    width: 201px;
     margin-right: 2em;
     text-align: center;
-
-    img {
-      width: 201px;
-      height: 156px;
-    }
-
-    .name {
-      padding-top: 1em;
-    }
 
     &:last-child {
       margin-right: 0;
@@ -40,6 +30,7 @@ section.what-smart-home {
   }
 
   .bg-house {
+    height: 100%;
     position: absolute;
     right: 0;
     top: 0;

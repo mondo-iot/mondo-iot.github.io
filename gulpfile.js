@@ -11,7 +11,11 @@ var browserSync = require("browser-sync").create();
 
 var paths = {
   styles: {
-    src: ["app/assets/stylesheets/ambience/*.scss", "app/assets/stylesheets/base/*.scss", "app/assets/stylesheets/components/*.scss", "app/assets/stylesheets/components/primeiros-passos/*.scss", "app/assets/stylesheets/index.scss"],
+    src: ["app/assets/stylesheets/ambience/*.scss",
+          "app/assets/stylesheets/base/*.scss",
+          "app/assets/stylesheets/components/*.scss", 
+          "app/assets/stylesheets/components/smart-home/*.scss",
+          "app/assets/stylesheets/index.scss"],
     dest: "dist/css/"
   },
 
