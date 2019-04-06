@@ -4,14 +4,20 @@
 section.extras {
   padding: 4em 0;
 
-  background-color: #0E5A73;
-  color: $color-white;
+  background-color: #F8F8F8;
 
   .title {
     font-family: 'Dunbar Tall';
     font-size: 42px;
     font-weight: bold;
     text-align: center;
+  }
+
+  .sub-title {
+    padding-bottom: .25em;
+    font-family: 'Dunbar Tall';
+    font-size: 18px;
+    letter-spacing: 0.1em;
   }
 
   .text {
