@@ -24,6 +24,8 @@ var paths = {
           "app/views/index.html",
           "app/views/primeiros-passos/index.html",
           "app/views/primeiros-passos/partials/*.html",
+          "app/views/home-office-inteligente/index.html",
+          "app/views/home-office-inteligente/partials/*.html",
           "app/views/despertar-inteligente/index.html",
           "app/views/despertar-inteligente/partials/*.html"],
     dest: "./"
@@ -76,6 +78,15 @@ function htmlDespertarInteligente() {
   )
 }
 
+function htmlHomeOfficeInteligente() {
+  return (
+    gulp
+      .src("app/views/home-office-inteligente/index.html")
+      .pipe(injectpartials())
+      .pipe(gulp.dest("./home-office-inteligente/"))
+  )
+}
+
 function watch() {
   style();
   html();
@@ -90,6 +101,7 @@ function watch() {
   gulp.watch(paths.html.src, html);
   gulp.watch(paths.html.src, htmlPrimeirosPassos);
   gulp.watch(paths.html.src, htmlDespertarInteligente);
+  gulp.watch(paths.html.src, htmlHomeOfficeInteligente);
   gulp.watch(paths.html.src, reload);
 }
 
@@ -98,3 +110,4 @@ exports.watch = watch;
 exports.html = html;
 exports.htmlPrimeirosPassos = htmlPrimeirosPassos;
 exports.htmlDespertarInteligente = htmlDespertarInteligente;
+exports.htmlHomeOfficeInteligente = htmlHomeOfficeInteligente;
