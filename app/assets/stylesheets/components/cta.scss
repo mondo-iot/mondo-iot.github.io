@@ -2,10 +2,16 @@
 @import '../ambience/colors';
 
 section.cta {
-  padding: 4em 0;
-  background-image: url('../images/bg-cta@2x.png');
+  padding: 3em 0;
+  background-image: url('../images/home/bg-cta@2x.png');
   background-size: cover;
   color: $color-white;
   font-size: 20px;
   text-align: center;
+
+  .title {
+    padding-bottom: .5em;
+    font-family: 'Dunbar Tall';
+    font-size: 36px;
+  }
 }
