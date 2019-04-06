@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Grupo_247" data-name="Grupo 247" transform="translate(-139 -1289)">
+    <g id="Grupo_158" data-name="Grupo 158" transform="translate(0 -1079)">
+      <circle id="Elipse_5" data-name="Elipse 5" cx="30" cy="30" r="30" transform="translate(139 2368)" fill="#3db387"/>
+    </g>
+    <g id="bar-chart" transform="translate(138.399 1301.338)">
+      <g id="Grupo_161" data-name="Grupo 161" transform="translate(13.601 9.642)">
+        <g id="Grupo_160" data-name="Grupo 160" transform="translate(0)">
+          <path id="Caminho_172" data-name="Caminho 172" d="M44.817,169.359H43.375V148.421a1.769,1.769,0,0,0-1.767-1.767H38.384a1.769,1.769,0,0,0-1.767,1.767v20.938H32.955V157.908a1.769,1.769,0,0,0-1.767-1.767H27.965a1.769,1.769,0,0,0-1.767,1.767v11.451H22.536v-5.93a1.769,1.769,0,0,0-1.767-1.767H17.546a1.769,1.769,0,0,0-1.767,1.767v5.93h-1.52a.657.657,0,0,0,0,1.315H44.817a.657.657,0,0,0,0-1.315Zm-23.6,0H17.093v-5.93a.453.453,0,0,1,.452-.452h3.223a.453.453,0,0,1,.452.452Zm10.419,0H27.512V157.908a.453.453,0,0,1,.452-.452h3.223a.453.453,0,0,1,.452.452Zm10.419,0H37.932V148.421a.453.453,0,0,1,.452-.452h3.223a.453.453,0,0,1,.452.452v20.938Z" transform="translate(-13.601 -146.654)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_163" data-name="Grupo 163" transform="translate(19.238)">
+        <g id="Grupo_162" data-name="Grupo 162" transform="translate(0)">
+          <path id="Caminho_173" data-name="Caminho 173" d="M123.481.691a.655.655,0,0,0-.69-.69l-.032,0h-3.978a.657.657,0,1,0,0,1.315h2.456l-6.5,6.5-2.451-2.451a.657.657,0,0,0-.93,0L99.539,17.182a.657.657,0,0,0,.93.93L111.823,6.758l2.451,2.451a.658.658,0,0,0,.93,0l6.964-6.964V4.468a.657.657,0,1,0,1.315,0V.723C123.483.712,123.482.7,123.481.691Z" transform="translate(-99.346)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_165" data-name="Grupo 165" transform="translate(17.022 19.284)">
+        <g id="Grupo_164" data-name="Grupo 164" transform="translate(0)">
+          <circle id="Elipse_21" data-name="Elipse 21" cx="0.657" cy="0.657" r="0.657" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
