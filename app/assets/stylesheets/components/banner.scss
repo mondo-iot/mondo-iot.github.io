@@ -1,6 +1,7 @@
 @import '../index';
 
 section.banner {
+  padding-top: 80px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,16 +9,24 @@ section.banner {
   align-items: center;
   text-align: center;
   
-  background-image: url('../images/bg-mondo@2x.png');
+  background-image: url('../images/home/bg-banner@2x.png');
   background-size: cover;
   background-repeat: no-repeat;
+
+  color: $color-white;
 
   .title {
     font-family: 'Dunbar Tall';
     font-weight: 500;
-    font-size: 64px;
-    line-height: 70px;
-    color: $color-white;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .description {
+    padding-top: 2em;
+    width: 610px;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   .btn {
