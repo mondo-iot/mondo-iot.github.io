@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="131" viewBox="0 0 131 131">
+  <g id="Grupo_151" data-name="Grupo 151" transform="translate(-705 -4498)">
+    <g id="Grupo_153" data-name="Grupo 153">
+      <g id="Grupo_130" data-name="Grupo 130" transform="translate(444 174)">
+        <circle id="Elipse_20" data-name="Elipse 20" cx="65.5" cy="65.5" r="65.5" transform="translate(261 4324)" fill="#f0f0f0"/>
+      </g>
+      <g id="power-button" transform="translate(734.524 4524.373)">
+        <path id="Caminho_46" data-name="Caminho 46" d="M47.66,8.36a1.183,1.183,0,1,0-.8,2.226,31.839,31.839,0,0,1,20.709,29.49,30.838,30.838,0,1,1-39.623-29.64,1.183,1.183,0,0,0-.677-2.267A33.238,33.238,0,1,0,69.933,40.076,34.24,34.24,0,0,0,47.66,8.36Z" transform="translate(0 1.348)" fill="#3db387"/>
+        <path id="Caminho_47" data-name="Caminho 47" d="M32.168,40.234a1.183,1.183,0,0,0,1.183-1.183V1.183a1.183,1.183,0,1,0-2.367,0V39.051A1.183,1.183,0,0,0,32.168,40.234Z" transform="translate(4.56)" fill="#3db387"/>
+      </g>
+    </g>
+  </g>
+</svg>
