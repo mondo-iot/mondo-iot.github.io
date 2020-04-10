@@ -6,14 +6,18 @@ section.about-smart-home {
       font-family: 'Dunbar Tall';
       font-size: 42px;
       font-weight: bold;
+      text-align: center;
+
     }
     
     .description {
       padding-top: 1em;
-      width: 400px;
-
+      width: 360px;
+      padding-right: .5em;
       font-size: 18px;
       line-height: 28px;
+      text-align: center;
+
     }
   }
 }
